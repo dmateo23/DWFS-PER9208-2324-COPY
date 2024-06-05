@@ -1,0 +1,48 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+
+p, li {
+    color: rgba(78, 78, 78, 0.94);
+}
+
+h1 {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 1% 20%;
+    padding: 2px;
+    background-color: rgba(29, 109, 109, 0.3);
+    color: rgba(78, 78, 78, 0.94);
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    text-decoration-line: overline underline;
+}
+
+section[id="contact"] {
+    background-color: rgba(29, 109, 109, 0.3);
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 1% 20%;
+    padding: 1%;
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+    margin-top: 1%;
+    height: 100px;
+    width: 120px;
+}
+
+
+
+

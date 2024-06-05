@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema Seats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <h1>UNIR-CINEMA</h1>
+</header>
+<div class="container">
+    <div class="row">
+        <aside class="col-md-2">
+            <div>
+                <br><h3>CARTELERA</h3>
+                <img class="movie-poster" src="https://es.web.img3.acsta.net/pictures/14/03/13/09/32/445665.jpg" alt="Cartelera DBZ">
+                <h5>Horario: 9:00 P.M.</h5>
+            </div>
+        </aside>
+        <main class="col-md-8">
+            <div class="screen">
+                <br><h2>Pantalla</h2>
+            </div>
+            <div>
+                <table class="seat-table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                        <th>F</th>
+                        <th>G</th>
+                        <th>H</th>
+                        <th>I</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+                    <tr> <td>2</td> <td></td> <td></td> <td></td> <td>X</td> <td></td> <td>X</td> <td>X</td> <td></td> <td></td> </tr>
+                    <tr> <td>3</td> <td></td> <td></td> <td>X</td> <td>X</td> <td>X</td> <td></td> <td></td> <td></td> <td></td> </tr>
+                    <tr> <td>4</td> <td></td> <td></td> <td>X</td> <td>X</td> <td></td> <td>X</td> <td></td> <td></td> <td></td> </tr>
+                    <tr> <td>5</td> <td></td> <td></td> <td></td> <td></td> <td>X</td> <td>X</td> <td>X</td> <td></td> <td></td> </tr>
+                    <tr> <td>6</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+                    <tr> <td>7</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <aside class="col-md-2">
+            <div>
+                <br><h3>RESERVAS</h3>
+                <table class="seat-table">
+                    <thead>
+                    <tr>
+                        <th>Asientos</th>
+                        <th>Estado</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Ocupado</td><td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Disponible</td><td></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <form action="">
+                    <label for="seats-number">Número de asientos:</label><br>
+                    <input type="number" id="seats-number" name="fseats" value="1"><br><br>
+                    <input type="submit" value="Confirmar">
+                </form>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>UNIR-CINEMA<br>
+            Calle 45 Carrera 32 #4<br>
+            Tel: +57 602 7230030<br>
+            unir-cinema@comunidadunir.net</p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
